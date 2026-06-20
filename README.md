@@ -1,6 +1,6 @@
 # MaulClaw
 
-> **MaulClaw** – a fast, type‑safe CLI toolkit that demonstrates modern TypeScript, functional programming, and excellent software craftsmanship.  The project showcases a clean architecture, robust CLI interactions, and integration with external platforms (Telegram, AI agents) while maintaining high code quality and developer ergonomics.
+> **MaulClaw** – a fast, type‑safe CLI toolkit that demonstrates modern TypeScript, functional programming, and excellent software craftsmanship. The project showcases a clean architecture, robust CLI interactions, and integration with external platforms (Telegram, AI agents) while maintaining high code quality and developer ergonomics.
 
 ---
 
@@ -17,15 +17,15 @@
 
 ## 🛠️ Tech Stack
 
-| Category | Tool/Library |
-|----------|--------------|
-| Runtime | **bun** (v1.1+) |
-| Language | **TypeScript** (strict mode) |
-| CLI UI | `@clack/prompts`, `chalk`, `figlet`, `marked-terminal` |
-| HTTP / Bot | `node-fetch`, `dotenv` |
-| Project Management | `npm scripts`, `bun run` |
-| Code Quality | `ESLint`, `Prettier`, `tsc` |
-| Documentation | Markdown, **README** driven development |
+| Category           | Tool/Library                                           |
+| ------------------ | ------------------------------------------------------ |
+| Runtime            | **bun** (v1.1+)                                        |
+| Language           | **TypeScript** (strict mode)                           |
+| CLI UI             | `@clack/prompts`, `chalk`, `figlet`, `marked-terminal` |
+| HTTP / Bot         | `node-fetch`, `dotenv`                                 |
+| Project Management | `npm scripts`, `bun run`                               |
+| Code Quality       | `ESLint`, `Prettier`, `tsc`                            |
+| Documentation      | Markdown, **README** driven development                |
 
 ---
 
@@ -72,6 +72,7 @@ maulclaw wakeup
 ```
 
 Displays an animated banner and lets you pick a mode:
+
 - **CLI** – interact directly in the terminal.
 - **Telegram** – launch the Telegram bot (requires `BOT_TOKEN`).
 - **Exit** – gracefully terminate.
@@ -82,11 +83,11 @@ Displays an animated banner and lets you pick a mode:
 maulclaw agent
 ```
 
-Runs the full AI‑agent orchestration pipeline: planning → execution → feedback loop.  The command demonstrates async data flow, error handling, and clean separation of responsibilities.
+Runs the full AI‑agent orchestration pipeline: planning → execution → feedback loop. The command demonstrates async data flow, error handling, and clean separation of responsibilities.
 
 ### 3️⃣ Plan & Ask (place‑holder commands)
 
-These commands are scaffolded for future expansion.  They already follow the same pattern as the other commands, proving the extensibility of the architecture.
+These commands are scaffolded for future expansion. They already follow the same pattern as the other commands, proving the extensibility of the architecture.
 
 ---
 
@@ -123,12 +124,12 @@ The layout follows the **feature‑folder** pattern, making it straightforward t
 
 ## 📦 Scripts
 
-| Script | Description |
-|--------|-------------|
-| `dev` | Run `index.ts` in watch mode (`bun run index.ts`). |
+| Script  | Description                                        |
+| ------- | -------------------------------------------------- |
+| `dev`   | Run `index.ts` in watch mode (`bun run index.ts`). |
 | `build` | Bundle the CLI for distribution (`bun build ...`). |
-| `lint` | Run ESLint with Prettier checks. |
-| `test` | Placeholder – add Jest/Mocha tests here. |
+| `lint`  | Run ESLint with Prettier checks.                   |
+| `test`  | Placeholder – add Jest/Mocha tests here.           |
 
 ---
 
@@ -146,5 +147,3 @@ The layout follows the **feature‑folder** pattern, making it straightforward t
 MIT © 2024 – Feel free to use, modify, and distribute.
 
 ---
-
-*Built with ❤️ using **bun**, **TypeScript**, and a passion for clean, maintainable code.*
